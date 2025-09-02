@@ -1,2 +1,3 @@
 -- SQLite
-SELECT * FROM users WHERE email = "test@example.com";
+ALTER TABLE users
+DROP COLUMN alergias;
